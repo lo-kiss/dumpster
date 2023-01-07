@@ -31,6 +31,13 @@
   border-radius: 10%;
 }
 
+/* says the theme has loaded, may or may not be stolen from lea */
+[class^="Details-sc-"] [class^="TextAreaAutoSize__Container"]:before {
+    content: "Revolution theme has loaded!";
+    margin-bottom: 12px;
+    color: var(--error); /* theres no error, i just thought it would be funny */
+}
+
 /* ---------------------- */
 
 /* shrinks pfps, which imo gives a neat "flavor" */
