@@ -20,14 +20,47 @@
     --secondary-background: rgba(var(--secondary-background-rgb), 0.15);
     --message-box: rgba(var(--secondary-background-rgb), 0.75);
     --block: rgba(var(--primary-background-rgb), 0.75);
+    --border-radius-user-icon: 10%; /* squares up avatars */
+    --border-radius-channel-icon: 10%; /* squares up group chat icons */
+    --header-height: 40px; /* smaller height */
 }
+
+/* squares up server icons... which should be set with :root, but it doesn't work for me sooo... */
+.gafLvO,
+.kPeClm {
+  border-radius: 10%;
+}
+
+/* ---------------------- */
+
+/* shrinks pfps, which imo gives a neat "flavor" */
+.gafLvO,
+.kPeClm,
+.bTjVNf img {
+  width: 80%;
+  height: 80%;
+}
+/* thinner sidebar */
+.iDeTmr {
+    width: 54px;
+}
+/* shoddy attempt at fixing seperator */
+.fAjgmF {
+    margin: 2px;
+    display: flex;
+}
+/* fix channel icon padding (for smaller icons) */
+.ftlyRW {
+    padding-bottom: 0px;
+}
+
+/* ---------------------- */
 
 /* server bar */
 .jyizw {
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
-    overflow: hidden;
-    flex-shrink: 1
+    border-collapse: separate;
 }
 /* entire right side */
 ._3LgFW {
@@ -37,6 +70,48 @@
     border-radius: 16px;
     overflow: hidden
 }
+/* less pfp padding in chat */
+.csvICB {
+    width: 45px;
+}
+/* "new messages" bar tweaks */
+.gILwrq > div {
+    height: 21px;
+    padding: 0px 4px;
+    top: 40px;
+}
+/* context menu tweaks */
+.preact-context-menu .context-menu {
+    padding: 0px 0px;
+}
+.preact-context-menu .context-menu>span, .preact-context-menu .context-menu .main>span {
+    margin: 0px 0;
+    padding: 0px 3px;
+}
+/* role name tweaks */
+.fWMCga,
+.jOPNWX {
+    padding: 4px 7px 2px;
+}
+/* members channel tweaks */
+._item_1avxi_1[data-margin=true] {
+    margin: -1px 0px;
+}
+/* padding for the members and search button */
+.cnyIwU,
+.fPzJRX,
+.gZuxBC {
+    gap: 3px;
+}
+/* chat tweaks */
+.gloPof,
+.jCxwsP {
+    margin-top: 4px;
+}
+.kpVPRw > div {
+    padding-bottom: 6px;
+}
+/* ---------------------- */
 
 /* custom background (replace url with your image) */
 #app:before {
