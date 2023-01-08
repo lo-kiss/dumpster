@@ -60,15 +60,17 @@
 .ftlyRW {
     padding-bottom: 0px;
 }
+/* compacts channels list spacing */
+._item_1avxi_1._compact_1avxi_19 {
+    height: 27px;
+}
+.iuNJGz {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 /* ---------------------- */
 
-/* server bar */
-.jyizw {
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-collapse: separate;
-}
 /* entire right side */
 ._3LgFW {
     padding: 14px;
@@ -129,6 +131,15 @@
     background: rgb(0 0 0 / 0%);
     margin-bottom: 15px;
 }
+/* smaller time */
+.csvICB .edited {
+    font-size: 9px;
+}
+/* sets server banners with images to the normal size of banners without images */
+.dKFhRZ {
+    height: 40px;
+}
+
 /* ---------------------- */
 
 /* custom background (replace url with your image) */
