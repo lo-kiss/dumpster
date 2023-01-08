@@ -1,6 +1,7 @@
 # revolution
 custom Revolt theme that is incredibly broken and a concept (for now)
 mainly made due to being extremely bored and wanting to spice up the experience of a chat platform I use
+currently, it does an okay job of making things compact and also ruining that at the same time!
 
 to use this theme, simply add an import (or copy paste the code) to the top of your custom css, such as:
 ```css
