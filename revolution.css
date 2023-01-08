@@ -79,9 +79,22 @@
     border-radius: 16px;
     overflow: hidden
 }
-/* less pfp padding in chat */
+/* small pfps in chat */
 .csvICB {
     width: 45px;
+}
+.csvICB .avatar {
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+/* move messages to the left */
+.jkmmZm {
+    margin-left: -35px;
+}
+.jCxwsP .detail {
+    margin-left: 20px;
+    margin-top: 8px;
 }
 /* "new messages" bar tweaks */
 .gILwrq > div {
@@ -122,7 +135,7 @@ span.name {
 /* chat tweaks */
 .gloPof,
 .jCxwsP {
-    margin-top: 4px;
+    margin-top: 0px;
 }
 .kpVPRw > div {
     padding-bottom: 4px;
