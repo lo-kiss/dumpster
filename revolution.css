@@ -94,8 +94,15 @@
     padding: 0px 0px;
 }
 .preact-context-menu .context-menu>span, .preact-context-menu .context-menu .main>span {
-    margin: 0px 0;
-    padding: 0px 3px;
+    margin: 3px 3px;
+    padding: 1px 3px;
+}
+/* larger channel name + disable divider */
+span.name {
+    font-size: 20px;
+}
+.cnyIwU .divider {
+    display: none;
 }
 /* role name tweaks */
 .fWMCga,
@@ -122,14 +129,14 @@
 }
 /* typing users bar */
 .fUFJYB > div {
-    top: 35px;
-    z-index: 2;
-    background-color: rgb(0 0 0 / 0%);
+    position: absolute;
+    backdrop-filter: none;
+    z-index: 0;
 }
 /* chat box */
 .jBEnry {
     background: rgb(0 0 0 / 0%);
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 /* smaller time */
 .csvICB .edited {
