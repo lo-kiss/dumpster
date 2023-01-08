@@ -8,7 +8,7 @@ currently, it does an okay job of making things compact and also ruining that at
 # apply
 to use this theme, simply add an import (or copy paste the code) to the top of your custom css, such as:
 ```css
-@import url("https://cdn.githubraw.com/sneexy-boi/revolution/main/revolution.css");
+@import url("https://cdn.jsdelivr.net/gh/sneexy-boi/revolution@main/revolution.css");
 ```
 
 recommended theme settings (for the default, anyways):
