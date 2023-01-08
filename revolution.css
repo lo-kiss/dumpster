@@ -145,7 +145,7 @@
 /* custom background (replace url with your image) */
 #app:before {
     z-index: -999;
-    background: url('https://i.imgur.com/7SbtKvw.png') no-repeat center / cover fixed;
+    background: url('https://raw.githubusercontent.com/sneexy-boi/revolution/main/assets/bg.jpg') no-repeat center / cover fixed;
     position: absolute;
     content: 'deez nuts';
     display: block;
