@@ -11,7 +11,7 @@
  
 [class^="RevoltApp__AppContainer-sc-"] {
     z-index: -999;
-    background: url('https://i.imgur.com/7SbtKvw.png');
+    background: var(--image-bg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
