@@ -24,8 +24,8 @@
  
 [class^="_11Ivv"] {
     margin: 16px;
-    width: 97.4% !important;
-    height: 96% !important;
+    width: calc(100vw - 33px) !important;
+    height: calc(var(--app-height) - 33px) !important;
     border-radius: 16px;
     backdrop-filter: blur(10px);
     box-shadow: 9px 10px 36px 8px rgba(0,0,0,0.49);
