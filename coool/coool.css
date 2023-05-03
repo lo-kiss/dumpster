@@ -20,7 +20,17 @@
     inset: 0;
     top: 0;
 }
- 
+
+[class^="IconBase-sc-"],
+[class^="Image-sc-"] {
+    box-shadow: 3px 2px 77px -11px rgba(0,0,0,1);
+}
+
+[class^="ComboBox-sc-"],
+[class^="Base-sc-"] {
+    box-shadow: 13px 13px 93px -11px rgba(0,0,0,0.60);
+}
+
 [class^="_11Ivv"] {
     margin: 16px;
     width: calc(100vw - 33px) !important;
@@ -33,13 +43,18 @@
 [class^="RevoltApp__Routes-sc-"] {
     border-radius: 0px 16px 16px 0px;
 }
- 
+
 [class^="SidebarBase-sc-"] {
     border-radius: 16px 0px 0px 16px;
 }
  
 [class^="SidebarBase-sc-"]:nth-child(2) {
     border-radius: 0px 16px 16px 0px;
+}
+
+._item_1avxi_1[data-active=true] {
+    background: var(--accent);
+    color: var(--foreground);
 }
  
 [class^="Header-sc-"] {
