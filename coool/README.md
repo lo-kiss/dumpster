@@ -1,14 +1,14 @@
-# revolution
-custom Revolt theme that is incredibly broken and a concept (for now)
+# coool
+custom [Revolt](https://revolt.chat/) theme that wants to be like every other Discord theme 
 
 mainly made due to being extremely bored and wanting to spice up the experience of a chat platform I use
 
-currently, it does an okay job of making things compact and also ruining that at the same time!
+> :warning: note that i'm *not* a css dev, or really any type of dev. i just look up the issues i have or how to do something then tape it together in a massive, ugly css file.
 
 # apply
 to use this theme, simply add an import (or copy paste the code) to the top of your custom css, such as:
 ```css
-@import url("https://cdn.jsdelivr.net/gh/sneexy-boi/revolution@main/revolution.css");
+@import url("https://cdn.jsdelivr.net/gh/sneexy-boi/dumpster@main/coool/coool.css");
 ```
 
 recommended theme settings (for the default, anyways):

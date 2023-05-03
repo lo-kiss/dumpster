@@ -1,0 +1,27 @@
+.csvICB .avatar {
+   width: 24px;
+   height: 24px;
+}
+
+[class^="MessageBase__MessageInfo-sc-"] {
+   margin-right: -10px;
+}
+
+[class^="MessageBase__MessageContent-sc-"] {
+   background-color: var(--background);
+   border-radius: 18px;
+   padding: 6px 9px 6px 9px;
+   flex-grow: 0;
+}
+
+[class^="UserShort__Name-sc-"] {
+   font-size: 11px;
+}
+
+[class^="MessageBase__DetailBase-sc-"] {
+   font-size: 8px;
+}
+
+[class^="sc-jSgvzq"] {
+   border-radius: 50px;
+}

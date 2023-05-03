@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'FOT-PopJoy Std';
+    src: url('https://github.com/sneexy-boi/dumpster/raw/main/paprvolt/assets/popjoyb.otf'), format(opentype);
+}
+
+* {
+    font-family: 'FOT-PopJoy Std';
+}
+
 [class^="MessageBase-sc-"] {
     background: #ffffff;
     color: #000000;
