@@ -1,0 +1,33 @@
+#calckey_app {
+    z-index: -999;
+    background: url('https://i.imgur.com/7SbtKvw.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    inset: 0;
+    top: 0;
+}
+
+* {
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.53);
+}
+
+.mvcprjjd > .body[data-v-0cd523dd] {
+
+    opacity: 80%;
+    box-shadow: 9px 10px 36px 8px rgba(0,0,0,0.49);
+}
+
+[class^="columns left"] {
+    padding: 16px;
+}
+
+[class^="dnpfarvg"] {
+    margin-right: 14px;
+    border-right: unset !important;
+    border-radius: 16px;
+    box-shadow: 9px 10px 36px 8px rgba(0,0,0,0.49);
+}
