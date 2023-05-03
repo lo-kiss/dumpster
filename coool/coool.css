@@ -2,7 +2,7 @@
 [class^="Details-sc-"] [class^="TextAreaAutoSize__Container"]:before {
     content: "coool has loaded.";
     margin-bottom: 12px;
-    color: var(--error);
+    color: var(--success);
 }
 
 * {
