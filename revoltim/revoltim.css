@@ -33,7 +33,7 @@
 [class^="MessageBase__MessageContent-sc-"] {
    background-color: var(--tertiary-background);
    border-radius: 18px;
-   padding: 6px 9px 6px 9px;
+   padding: 10px 13px 10px 13px;
    flex-grow: 0;
 }
 
